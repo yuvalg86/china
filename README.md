@@ -13,7 +13,9 @@ Process text file and saves it numbered in daniel's way.
 
 Options:
   -h --help     prints this screen
+  
   --input=<FILE>    input text to load [default: input.txt]
+  
   --output=<FILE>   Output text file to save [default: output.txt]
 
 
