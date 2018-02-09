@@ -9,7 +9,7 @@ Process text file and saves it numbered in daniel's way.
 * pip install docopt
 
 # usage
-  ./tonumbered.py [--input=<FILE> --output=<FILE>]
+  ./tonumbered.py [--input=FILE --output=FILE]
 
 Options:
   -h --help     prints this screen
