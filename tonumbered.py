@@ -32,10 +32,11 @@ def load_file(filename):
 
 def prepare_new_prefix(counters, num_of_tabs):
     """
-    function that loads the text file.
+    function that prepare numbered prefix for a line
 
-    :param filename: a text file in correct format.
-    :return: list with file content
+    :param counters: counters of the tabs for each level
+    :param num_of_tabs: number of tabs of the current line
+    :return: prefix in the needed format
     """
     prefix = ""
     number_str = str(counters[0])
